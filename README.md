@@ -1,7 +1,6 @@
 # Where was Malthus?
 
-**▶ Play the campaign:** https://aaditya3625.github.io/where-was-malthus/campaign.html  
-**▶ Quick mode:** https://aaditya3625.github.io/where-was-malthus/
+**▶ Play:** https://aaditya3625.github.io/where-was-malthus/
 
 A map-guessing game for economic history. Each round gives you a place's **urbanisation rate, population and average adult male height** at some point between 1 CE and 1850. You drop a pin where you think it was. The score falls off with distance, the same way GeoGuessr's does.
 
@@ -51,7 +50,7 @@ Round data lives in `data/rounds.json`. The page template is `src/template.html`
 
 Map geometry: Natural Earth via `world-atlas`.
 
-## v2: Campaign mode (`/v2/`)
+## The game (v2, served at the site root)
 
 This is a separate page, built so you can win rounds by reasoning rather than luck.
 - **Staged scout reports:** you start with one statistic. Each extra report lowers the round's top prize (100 → 80 → 60 → 40 → 25), and the last gives a regional hint. Stats: urbanisation, height, literacy (Buringh & van Zanden 2009; Broadberry & O'Rourke 2010, Europe only), GDP per head and population.
@@ -75,3 +74,6 @@ This is a separate page, built so you can win rounds by reasoning rather than lu
 - Bosker et al.'s `Bagdad_London.xls`
 
 It also needs `land.geojson`, made from world-atlas `land-50m`. Then run `cd v2 && python build_data.py && node build.js`.
+
+
+_The original quick-mode prototype (v1) is kept in `v1/` for reference; the root build files (`src/`, `build.js`, `data/rounds.json`) belong to it._
