@@ -1,7 +1,7 @@
 # Where was Malthus?
 
 
-A map-guessing game for economic history. Each round gives you a place's **urbanisation rate, population and average adult male height** at some point between 1 CE and 1850. You drop a pin where you think it was. The score falls off with distance, the same way GeoGuessr's does.
+A map-guessing game for economic history. Each round gives you a place's **urbanisation rate, population and average adult male height** at some point between 1 CE and 1850 CE. You drop a pin where you think it was. The score falls off with distance, the same way GeoGuessr's does.
 
 The rounds are chosen so the numbers don't always point the obvious way. Tokugawa Japan was as urban as most of Europe but among the shortest populations ever measured. The United States in 1820 was almost entirely rural and the tallest population in the data. Abbasid Iraq in 900 was more urban than any Christian European territory until the Dutch Republic.
 
